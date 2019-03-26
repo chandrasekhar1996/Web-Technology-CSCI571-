@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BizOptima</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <style>
+
+    html, body
+    {
+      overflow-x: hidden;
+      font-family: 'Open Sans', sans-serif;
+
+
+    }
+      section
+      {
+        background: white;
+      }
+      #navigationBar a
+      {
+        color: grey;
+        text-align: center;
+        padding: 14px 16px; /*TBC*/
+        text-decoration: none;
+
+      }
+
+      #navigationBar a:hover
+      {
+        color: black;
+      }
+      .text-block
+      {
+        position: absolute;
+        /* top: 200px;
+        left: 250px; */
+        margin-left: 100px;
+        margin-top: -590px;
+        background-color: #073B5E;
+        color: white;
+        padding-left: 34px;
+        padding-right: 34px;
+        /* padding-bottom: 34px; */
+      }
+
+      #emailInput
+      {
+        background-color: #E5EAED;
+        width: 100%;
+        height: 40px;
+      }
+      /* email button */
+      .Emailbutton {
+          margin-top: 25px;
+          margin-bottom: 50px;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          /* margin: 4px 2px; */
+          -webkit-transition-duration: 0.4s; /* Safari */
+          transition-duration: 0.4s;
+          cursor: pointer;
+      }
+
+      .Emailbutton1 {
+          background-color: #F6DF3D;
+          color: black;
+
+      }
+
+      .Emailbutton1:hover
+      {
+        background-color: #1E252F;
+        color: white;
+      }
+
+
+
+      a
+      {
+        font-family: 'Open Sans', sans-serif;
+      }
+      #navigationBar p
+      {
+        font-family: 'Open Sans', sans-serif;
+      }
+      #amazingFeature1, #amazingFeature2
+      {
+        min-width: 360px;
+        max-width: 360px;
+        padding-left: 25px;
+        padding-right: 25px;
+        float: left;
+        font-size: 15px;
+
+
+      }
+      #amazingFeature3
+      {
+        min-width: 360px;
+        max-width: 360px;
+        padding-left: 21px;
+        padding-right: 20px;
+        float: left;
+        font-size: 15px;
+      }
+      #wrapperAmazingFeature
+      {
+
+          margin-top: 90px;
+          /* padding-left: 30px;
+          padding-right: 30px; */
+          margin-bottom: 90px;
+          min-width: 1221px;
+          max-width: 1221px;
+          height: 200px;
+
+          margin-left: 21px;
+          margin-right: 21px;
+      }
+
+      #wrapperAmazingFeature h3
+      {
+        font-family: 'Open Sans', sans-serif;
+
+      }
+
+
+
+      .testimonial
+      {
+        font-family: 'Open Sans', sans-serif;
+        background-color:#F4F4F4;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        min-width: 1263px;
+      }
+
+      .pricesParallax
+      {
+        background: linear-gradient(rgba(233,233,233, 0.93), rgba(233, 233, 233, 0.93)), url('glasses.png') ;
+        min-height: 750px;
+        max-height: 750px;
+        background-repeat: no-repeat;
+        background-size: 2003px 950px;
+        background-attachment: fixed;
+         background-position: center;
+        min-width: 1263px;
+        max-width: 1263px;
+        width: 1263px;
+      }
+
+
+      #freeTrial
+      {
+        background: linear-gradient(rgba(0, 54, 111, 0.82), rgba(0, 54, 111, 0.82)) , url('notebook.jpg') ;
+        width: 1263px;
+        height: 500px;
+        background-size: cover;
+        background-position: 0% 50%;
+        /* background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat; */
+      }
+
+      #bgColor
+      {
+        background-color:     rgba(49, 78, 103, 0.7);
+        width:100%;
+            height:100%;
+      }
+
+      #bestApp
+      {
+        text-align: center;
+        vertical-align: middle;
+        /* display: inline-block; */
+        /* position: absolute; */
+        padding-top: 200px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+
+
+
+      }
+      #freeTrial p
+      {
+        color: white;
+        text-align: center;
+      }
+
+      .tryFree
+      {
+        text-align: center;
+        margin-left: 550px;
+        background-color: #F6DF3D;
+        height: 50px;
+        width: 180px;
+        font-size: 15px;
+        border: none;
+        margin-top:30px;
+
+      }
+
+      .tryFree:hover
+      {
+        background-color: black;
+        color: white;
+      }
+
+      .socialMedia
+      {
+        background-color: #1E252F;
+        padding-top: 100px;
+        min-width: 1263px;
+        padding-bottom: 100px;
+      }
+      .bizOptima
+      {
+        margin: 0 0px;
+        padding: 0 0px;
+        text-align: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+
+      }
+      .socialMedia p
+      {
+          color: white;
+          text-align: center;
+          margin: 0 0px;
+          padding-top: 20px;
+          font-family: 'Open Sans', sans-serif;
+          padding-bottom: 35px;
+          font-size: 13px;
+      }
+      .prices{
+        min-width: 1263px;
+        max-width: 1263px;
+      }
+
+      .prices p
+      {
+
+        margin: 0 0px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+
+      }
+
+      /* .priceBG
+      {
+        background-color:     rgba(49, 78, 103, 0.7);
+        width:100%;
+            height:100%;
+      } */
+
+      .priceCards
+      {
+        margin-top: 70px;
+      }
+
+      .buyNow
+      {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 24px;
+        padding-right: 24px;
+        background-color: #073B5E;
+        color: white;
+        border: none;
+      }
+
+      .buyNow:hover
+      {
+        background-color: black;
+      }
+
+
+    }
+    </style>
+  </head>
+
+  <body style="margin: auto; max-width: 1263px;">
+    <div style="height: 110px; min-width: 1263px;" id="navigationBar">
+      <div style="float: left; height: inherit; margin-left: 5%;">
+        <p style="padding-top: 50%; height: inherit; ">MENU</p>
+      </div>
+      <div style="float:right; height: inherit; text-align: center;margin-right:6%;">
+        <p style="padding-top:10%; height:inherit;" >
+        <a href="page2.html#about"  target="_blank">About</a>
+        <a href="page2.html#projects" target="_blank">Projects</a>
+        <a href="page2.html#services" target="_blank">Services</a>
+      </p>
+      </div>
+    </div>
+
+
+    <div id="lawyerForm" style="min-width: 1339px;overflow: hidden;">
+      <img style="object-fit:cover; height: 700px; width:100%;" src="lawyer.jpg" id="lawyerCrop" >
+      <div class="text-block" style="font-family: 'Open Sans', sans-serif; min-width: 310px; max-width: 310px;">
+          <h5>DON'T WAIT</h5>
+          <h1 style="margin: 0 0px;">IMPROVE<br>YOUR BUSINESS<br>TODAY!</h1>
+          <p style="color:#FBDF00; font-size: 13px;"><i>- Get your hands on Biz Optima -</i></p>
+          <!-- <br> -->
+          <input type="email" name="signUpEmail" placeholder="Email" id="emailInput" style="font-size:15px;">
+          <button id="emailButton" class = "Emailbutton Emailbutton1" style="font-family: 'Open Sans', sans-serif; border:none;">SIGN UP FOR FREE!</button>
+        </div>
+<!-- text colour of submit button- #F6DF3D -->
+<!-- color of input field #E5EAED -->
+
+    </div>
+
+<!-- Lorem ipsum dolor sit amet, consectetur, adipiscing elit. Sed malesuada faucibus ex nec ultricies. Donec mattis egestas nisi non pretium. Suspendisse nec eros ut erat facilisis maximus. In congue et leo in varius. Vestibulum sit amet fellis ornare, commodo orci ut, feugiat lorem. -->
+    <div id="wrapperAmazingFeature">
+      <div id="amazingFeature1" >
+        <h3>AMAZING FEATURE #1</h3>
+        <p style="color: grey;">Lorem ipsum dolor sit amet, consectetur, adipiscing elit. Sed malesuada faucibus ex nec ultricies. Donec mattis egestas nisi non pretium. Suspendisse nec eros ut erat facilisis maximus. In congue et leo in varius. Vestibulum sit amet fellis ornare, commodo orci ut, feugiat lorem. </p>
+      </div>
+      <div id="amazingFeature2" >
+        <h3>AMAZING FEATURE #2</h3>
+        <p style="color: grey;">Lorem ipsum dolor sit amet, consectetur, adipiscing elit. Sed malesuada faucibus ex nec ultricies. Donec mattis egestas nisi non pretium. Suspendisse nec eros ut erat facilisis maximus. In congue et leo in varius. Vestibulum sit amet fellis ornare, commodo orci ut, feugiat lorem. </p>
+      </div>
+      <div id="amazingFeature3" >
+        <h3>AMAZING FEATURE #3</h3>
+        <p style="color: grey;">Lorem ipsum dolor sit amet, consectetur, adipiscing elit. Sed malesuada faucibus ex nec ultricies. Donec mattis egestas nisi non pretium. Suspendisse nec eros ut erat facilisis maximus. In congue et leo in varius. Vestibulum sit amet fellis ornare, commodo orci ut, feugiat lorem. </p>
+      </div>
+
+    </div>
+<!-- testimonial #F4F4F4-->
+    <div class = "testimonial" >
+      <p style="font-size: 20px;">"I COULDN'T HAVE ASKED FOR MORE THAN THIS. BIZ OPTIMA IS THE NEXT KILLER APP."</p>
+      <span><b>John Doe, </b><p style="color: grey; display: inline-block; margin: 0 0px;">CEO & Founder, Biz Optima</p></span>
+
+    </div>
+
+
+
+
+
+
+
+<!-- TBD -->
+    <div class="pricesParallax">
+      <!-- <div class="priceBG"> -->
+        <div class = "prices" >
+          <p style="padding-top: 50px; font-size:20px;" ><b>PRICES</b></p>
+          <p  style="padding-top: 20px; color:grey;" >AFFORDABLE FOR EVERYONE</p>
+        </div>
+        <div class="priceCards" style="font-family: 'Open Sans', sans-serif;">
+            <div class = "basicPlan" style="width: 330px; height: 480px;  margin-left: 86px; text-align: center;float:left; background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('grid.png');  ">
+              <p style="margin-top: 80px; margin-bottom: 30px;"><b>BASIC PLAN</b></p>
+              <p style="margin-bottom: 20px;">Plan Amazing Feature #1</p>
+              <p style="margin-bottom: 20px;">Plan Amazing Feature #2</p>
+              <p style="margin-bottom: 20px;">Plan Amazing Feature #3</p>
+              <p style="margin-bottom: 20px;">Plan Amazing Feature #4</p>
+              <p style="font-size: 20px; padding-top: 20px;"><b>$29.99 <br> Monthly </b></p>
+              <button class="buyNow" >BUY NOW</button>
+            </div>
+
+            <div class = "standardPlan" style="width: 330px; height: 480px; margin-left: 40px;  text-align: center;float:left;  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('grid.png');">
+              <p style="margin-top: 80px; margin-bottom: 30px;"><b>STANDARD PLAN</b></p>
+              <p style="margin-bottom: 20px;">Plan Amazing Feature #1</p>
+              <p  style="margin-bottom: 20px;">Plan Amazing Feature #2</p>
+              <p  style="margin-bottom: 20px;">Plan Amazing Feature #3</p>
+              <p  style="margin-bottom: 20px;">Plan Amazing Feature #4</p>
+              <p style="font-size: 20px; padding-top: 20px;"><b>$39.99 <br> Monthly </b></p>
+              <button class="buyNow">BUY NOW</button>
+            </div>
+
+            <div class = "corporatePlan" style="width: 330px; height: 480px; margin-left: 40px;  text-align: center;float:left; background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('grid.png');">
+              <p style="margin-top: 80px; margin-bottom: 30px;"><b>CORPORATE PLAN</b></p>
+              <p style="margin-bottom: 20px;">Plan Amazing Feature #1</p>
+              <p style="margin-bottom: 20px;">Plan Amazing Feature #2</p>
+              <p style="margin-bottom: 20px;">Plan Amazing Feature #3</p>
+              <p style="margin-bottom: 20px;">Plan Amazing Feature #4</p>
+              <p style="font-size: 20px; padding-top: 20px;"><b>$49.99 <br> Monthly </b></p>
+              <button class="buyNow">BUY NOW</button>
+            </div>
+
+
+        <!-- </div> -->
+      </div>
+    </div>
+
+
+
+
+
+
+
+ <div id="freeTrial" >
+
+
+     <h2 id="bestApp" style="margin: 0 0px;">TRY THE BEST APP IN THE MARKET</h2>
+     <p style="text-align: center; font-size:12px;">tell more why your software is amazing and why users need to sign up.</p>
+     <button class="tryFree">TRY IT FOR FREE</button>
+
+
+
+ </div>
+
+<!-- color of social media- #1E252F -->
+
+  <div class = "socialMedia">
+    <h4 class = "bizOptima">BIZ OPTIMA</h4>
+    <p>224 Grant Ave, Redondo Beach, CA, 90278 310.555.1212 Ext 3 for Business Needs</p>
+
+    <div class = "icons" style="padding-left: 450px;">
+        <a href = "https://www.facebook.com" target="_blank"><img src = "facebook.png" width="40px;" style=" padding-left:20px; padding-right: 20px; "></img></a>
+        <a href = "https://www.twitter.com" target="_blank"><img src = "twitter.png" width="40px; " style=" padding-left:20px; padding-right: 20px; "></img></a>
+        <a href = "https://www.instagram.com" target="_blank"><img src = "instagram.png" width="40px; " style=" padding-left:20px; padding-right: 20px; "></img></a>
+        <a href = "https://www.youtube.com" target="_blank"><img src = "youtube.png" width="40px; " style=" padding-left:20px; padding-right: 20px; "></img></a>
+        <a href = "https://plus.google.com/" target="_blank"><img src = "googleplus.png" width="40px; " style=" padding-left:20px; padding-right: 20px; ">  </img></a>
+      <div>
+  </div>
+
+
+
+
+      <!--
+      Lorem ipsum text:
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at diam ac erat ultricies bibendum a non odio. Etiam vel mi diam. Quisque porta maximus molestie. Maecenas malesuada feugiat varius. Ut ut mauris vitae lectus congue tristique. Praesent mi dui, congue quis odio vitae, rhoncus posuere diam. Phasellus porttitor sapien ut odio lacinia, eget pharetra mi ullamcorper. Duis molestie, nibh et suscipit tempus, sapien dolor pretium libero, sed interdum ligula ipsum et ante. Nunc justo odio, ornare vestibulum cursus vitae, ultricies quis nulla. Curabitur non sapien neque.
+      -->
+
+  </body>
+
+</html>
